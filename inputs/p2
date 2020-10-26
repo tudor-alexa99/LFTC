@@ -1,0 +1,20 @@
+# returneaza daca un numar e prim sau nu
+
+gata_schimb_functia_cu_toti p2							//begin p2 
+
+	valuta n;
+	valuta i;
+	
+	citesc_si_plang n;
+	i declar_scandal 2;										// i = 2
+	
+	fara_numar_fara_numar i dusmanii_mei (n te_tai_in 2) 	{			// while i < (n / 2)
+		daca_ploua_nu_ma_ploua ( n impart_cu_bani i egalul_meu 0 ) 		// if n % 2 == 0
+			ma_intorc_blindat_cu_bani numai_minciuni; 					// return false
+		i declar_scandal (i cand_e_frate_langa_frate 1);
+	
+	}
+	ma_intorc_blindat_cu_bani adevarat; 						// return true
+	
+adio_plictiseala;
+		

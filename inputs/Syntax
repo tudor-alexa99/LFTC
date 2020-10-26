@@ -1,0 +1,41 @@
+Syntax.in
+
+program ::= "VAR" decllist ";" 
+
+decllist ::= declaration | declaration "," decllist
+
+declaration ::= type " " IDENTIFIER 
+
+type1 ::= "BOOLEAN" | "CHAR" | "INTEGER" | "REAL"
+
+arraydecl ::=IDENTIFIER type "lista" "[" nr "]"
+
+type  ::= type1|arraydecl
+
+cmpdstmt ::= "sa_inceapa_cheful" stmtlist "adio_plictiseala"
+
+stmtlist ::= stmt | stmt ";" stmtlist
+
+stmt ::= simplstmt | structstmt
+
+simplstmt ::= assignstmt | iostmt
+
+assignstmt ::= IDENTIFIER "declar_scandal" expression
+
+expression ::= expression "cand_e_frate_langa_frate" term | term
+
+term ::= term "se_inmultesc_banii" factor | factor
+
+factor ::= "(" expression ")" | IDENTIFIER
+
+iostmt ::= "citesc_si_plang" "(" IDENTIFIER ")" | "e_scris_in_stele" "(" IDENTIFIER ")"
+
+structstmt ::= cmpdstmt | ifstmt | whilestmt
+
+ifstmt ::= "daca_ploua_nu_ma_ploua" condition "{" stmt ["ELSE" stmt]
+
+whilestmt ::= "WHILE" condition "DO" stmt
+
+condition ::= expression RELATION expression
+
+RELATION ::= "<" | "<=" | "=" | "<>" | ">=" | ">"

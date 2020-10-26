@@ -1,0 +1,24 @@
+# returneaza suma unei liste de numere
+
+gata_schimb_functia_cu_toti p3
+	
+	valuta n;
+	valuta i;
+	lista_de_valute valuta lista[10]; //
+	valuta teanc_de_bani;
+	
+	citesc_si_plang n;
+	citesc_si_plang lista;
+	teanc_de_bani declar_scandal 0;  //teanc_de_bani = 0
+	
+	
+	pentru_cine_pentru_tine(i declar_scandal 0; i dusmanii_mei n; i declar_scandal (i cand_e_frate_langa_frate 1)) // for (i = 0; i < n; i ++ ){
+		
+		teanc_de_bani declar_scandal (teanc_de_bani cand_e_frate_langa_frate lista_de_valute[i]); // teanc_de_bani = teanc_de_bani + lista_de_valute[i]
+		
+	}
+	
+	ma_intorc_blindat_cu_bani teanc_de_bani;
+	
+adio_plictiseala;
+		

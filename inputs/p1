@@ -1,0 +1,13 @@
+gata_schimb_functia_cu_toti p1
+	valuta abi;
+	valuta dani;
+	valuta bani;
+	abi citesc_si_plang;
+	dani citesc_si_plang;
+	daca_ploua_nu_ma_ploua abi valoare_din_aia_mare dani
+		ma_intorc_blindat_de_bani abi;
+	ori_nai_vrut_ori_nai_stiut abi dusmanii_mei dani
+		ma_intorc_blindat_de_bani dani;
+	s_a_rupt_lantul_de_iubire
+		ma_intorc_blindat_de_bani  (abi cand_e_frate_langa_frate dani)
+adio_plictiseala;

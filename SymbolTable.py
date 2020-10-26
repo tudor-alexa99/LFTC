@@ -10,3 +10,6 @@ class SymbolTable:
 
     def search(self, value):
         return self.table.search(value)
+
+    def print(self):
+        return self.table.print()

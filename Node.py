@@ -5,4 +5,10 @@ class Node:
         self.right = None
 
     def __str__(self):
-        return "node['" + self.data + "']"
+        return "Node ['" + self.data + "']"
+
+    def get_left(self):
+        return self.left
+
+    def get_right(self):
+        return self.right

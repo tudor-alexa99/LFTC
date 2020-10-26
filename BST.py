@@ -1,5 +1,7 @@
 from Node import Node
 
+COUNT = [10]
+
 
 class BST:
 
@@ -56,3 +58,46 @@ class BST:
                 current = current.left
 
         return None
+
+    def printBST(self, nodes=None):
+        if nodes is None:
+            list = []
+            list.append(self.root.get_left())
+            list.append(self.root.get_right())
+            return str(self.root)
+
+    def print2DUtil(self, root, space):
+
+        # Base case
+        if (root == None):
+            return
+
+        # Increase distance between levels
+        space += COUNT[0]
+
+        # Process right child first
+        self.print2DUtil(root.right, space)
+
+        # Print current node after space
+        # count
+        print()
+        for i in range(COUNT[0], space):
+            print(end=" ")
+        print(root)
+
+        # Process left child
+        self.print2DUtil(root.left, space)
+
+    def print2D(self, root):
+
+        # space=[0]
+        # Pass initial space count as 0
+        self.print2DUtil(root, 0)
+
+    def print(self):
+        self.print2D(self.root)
+
+    def print_nodes(self, current):
+        if current is None:
+            return
+
