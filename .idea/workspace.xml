@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6e5e221-3fa0-4607-bd8b-639e5f2583b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainFA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FA.py" beforeDir="false" afterPath="$PROJECT_DIR$/FA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainFA.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainFA.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +160,8 @@
       <workItem from="1603541688245" duration="10029000" />
       <workItem from="1603630689073" duration="45000" />
       <workItem from="1603729410443" duration="6432000" />
-      <workItem from="1604947631768" duration="2738000" />
+      <workItem from="1604947631768" duration="5308000" />
+      <workItem from="1605009829137" duration="1045000" />
     </task>
     <servers />
   </component>
@@ -182,26 +181,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="739" y="281" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1603630725174" />
-    <state width="1877" height="335" key="GridCell.Tab.0.bottom" timestamp="1604950583673">
+    <state width="1877" height="217" key="GridCell.Tab.0.bottom" timestamp="1605010527761">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603571220639" />
-    <state width="1877" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604950583673" />
-    <state width="1877" height="335" key="GridCell.Tab.0.center" timestamp="1604950583673">
+    <state width="1877" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605010527761" />
+    <state width="1877" height="217" key="GridCell.Tab.0.center" timestamp="1605010527761">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603571220639" />
-    <state width="1877" height="335" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604950583673" />
-    <state width="1877" height="335" key="GridCell.Tab.0.left" timestamp="1604950583673">
+    <state width="1877" height="217" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605010527761" />
+    <state width="1877" height="217" key="GridCell.Tab.0.left" timestamp="1605010527761">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603571220639" />
-    <state width="1877" height="335" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604950583673" />
-    <state width="1877" height="335" key="GridCell.Tab.0.right" timestamp="1604950583673">
+    <state width="1877" height="217" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605010527761" />
+    <state width="1877" height="217" key="GridCell.Tab.0.right" timestamp="1605010527761">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603571220639" />
-    <state width="1877" height="335" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604950583673" />
+    <state width="1877" height="217" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605010527761" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1603734915966">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -226,10 +225,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="453" y="181" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1602692033355" />
-    <state x="632" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1603630695170">
+    <state x="632" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1605009833536">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="632" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603630695170" />
+    <state x="632" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605009833536" />
     <state x="508" y="276" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603730377036">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -258,7 +257,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lab_3_py$BST.coverage" NAME="BST Coverage Results" MODIFIED="1603193378846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lab_3_py$main.coverage" NAME="main Coverage Results" MODIFIED="1603735136026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LFTC$MainFA.coverage" NAME="MainFA Coverage Results" MODIFIED="1604950583665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LFTC$MainFA.coverage" NAME="MainFA Coverage Results" MODIFIED="1605010413867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LFTC$main.coverage" NAME="main Coverage Results" MODIFIED="1604947741989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -27,6 +27,10 @@ if __name__ == '__main__':
 
         elif option == 6:
             sequence = input("\nAdd a sequence: ")
-            print(fa.check_sequence(sequence))
+            if (fa.check_sequence(sequence)):
+                print("Sequence accepted")
+            else:
+                print("Sequence rejected")
+
         option = int(input(
             "Input:\n  0 -> exit \n 1 -> Initial state \n 2 -> States\n 3 -> Alphabet\n 4 -> Final States\n 5 -> Transitions\n :"))

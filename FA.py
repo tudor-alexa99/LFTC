@@ -72,6 +72,8 @@ class FA:
 
     def check_sequence(self, sequence):
         '''Takes a sequence as an input and verifies if it can be accepted or not'''
+        if not self.is_deterministic():
+            return False
         current_state = self.get_initial_state()
         for s in sequence:
             if self.get_next_state(current_state, s) is not None:
